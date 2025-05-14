@@ -6,7 +6,6 @@ import { FaEdit } from "react-icons/fa";
 import { FaRegTrashAlt } from "react-icons/fa";
 import Modal from "./Modal";
 import { useRouter } from "next/navigation";
-import { v4 as uuidv4 } from "uuid";
 import { deleteTodo, editTodo } from "@/api";
 
 interface TaskProps {
